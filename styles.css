@@ -1,4 +1,20 @@
 
+@media (max-width:600px){ 
+    .flex-container {
+     flex-direction: column;
+  }
+.img img{ 
+     padding-left: 15vh;
+     padding-right: 15vh;
+  } 
+.nameblock{
+     width:90%;
+     margin: auto;
+     padding-left:0;
+  }
+}
+
+
 body {
     font-family: roboto, sans-serif;
     font-size: 15%;
