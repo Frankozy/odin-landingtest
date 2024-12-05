@@ -1,20 +1,4 @@
 
-@media (max-width:600px){ 
-    .flex-container {
-     flex-direction: column;
-  }
-.img img{ 
-     padding-left: 15vh;
-     padding-right: 15vh;
-  } 
-.nameblock{
-     width:90%;
-     margin: auto;
-     padding-left:0;
-  }
-}
-
-
 body {
     font-family: roboto, sans-serif;
     font-size: 15%;
@@ -32,7 +16,8 @@ body {
 }
 
 .container-toptwo {
-    padding: 4%;
+    
+    margin: 5%;
     
 }
 
@@ -45,7 +30,10 @@ body {
 
 .container-mid {
     background-color: rgba(162, 155, 155, 0.528);
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
    
     
 }
@@ -53,9 +41,12 @@ body {
 .title-mid {
     font-weight: bold;
     font-size:30px;
-    padding: 25px;
     display: flex;
     justify-content: center;
+    align-items:center;
+    text-align:justify;
+    margin-top: 4%;
+    
     
     
     
@@ -65,10 +56,11 @@ body {
     display: flex;
     justify-content:center;
     gap: 35px;
-    padding: 25px;
+    margin-top: 4%;
     font-size: 15px;
     margin-left: 165px;
     margin-right: 165px;
+    margin-bottom: 2%;
     
 
 }
@@ -158,7 +150,13 @@ p {
 
 .container-midlow {
     background-color: rgba(21, 137, 183, 0.377);
-    padding: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   
+
     
 }
 
@@ -168,6 +166,8 @@ p {
     font-weight: lighter;
     margin-left: 165px;
     margin-right: 165px;
+    margin-top: 5%;
+    margin-bottom: 3%;
     
 }
 
@@ -178,15 +178,16 @@ font-weight: bold;
 margin-top: 10px;
 margin-left:165px;
 margin-right: 165px;
+margin-bottom: 2%;
 
 }
 
 .container-bottom {
     background-color: rgba(162, 155, 155, 0.528);
-    padding: 5%;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .box {
@@ -201,6 +202,8 @@ margin-right: 165px;
     border-color: aqua;
     border-width: 45px;
     border:solid;
+    margin-top: 5%;
+    margin-bottom: 5%;
     
 }
 
