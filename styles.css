@@ -26,7 +26,7 @@ body {
 
 .title {
     font-weight: bold;
-    font-size:40px;
+    font-size:35px;
     margin-bottom: 5px;
 }
 
@@ -54,7 +54,7 @@ body {
     justify-content:center;
     gap: 35px;
     padding: 25px;
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 165px;
     margin-right: 165px;
     
@@ -99,7 +99,7 @@ body {
 }
 
 .knight {
-   max-width: auto;
+   max-width: 40%;
    height: 100%;
     margin-right: 165px;
     margin-bottom: 50px;
@@ -142,4 +142,65 @@ p {
     margin-left: 0px;
     margin-right: 0px;
     
+}
+
+.container-midlow {
+    background-color: rgba(21, 137, 183, 0.377);
+    padding: 85px;
+    
+}
+
+.sentence {
+    text-align: justify;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 165px;
+    margin-right: 165px;
+    
+}
+
+.quote {
+text-align: end;
+font-size: 18px;
+font-weight: bold;
+margin-top: 10px;
+margin-left:165px;
+margin-right: 165px;
+
+}
+
+.container-bottom {
+    background-color: rgba(162, 155, 155, 0.528);
+    padding: 5%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    background-color:rgba(56, 56, 164, 0.496);
+    border-radius: 10px;
+    
+    justify-content: space-between;
+    flex-direction: column;
+    width: 600px;
+    border-color: aqua;
+    border-width: 45px;
+    border:solid;
+    
+}
+
+.call {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: large;
+    margin-top: 20px;
+    
+}
+
+.paragraph {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
 }
