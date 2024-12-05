@@ -1,7 +1,5 @@
 
 body {
-    
-    width: 100%;
     font-family: roboto, sans-serif;
     font-size: 15%;
     margin: auto;
@@ -18,9 +16,7 @@ body {
 }
 
 .container-toptwo {
-    margin-top: 50px;
-    margin-left: 165px;
-    margin-right: 180px;
+    padding: 4%;
     
 }
 
